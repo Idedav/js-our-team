@@ -1,5 +1,6 @@
 .card img{
-    width: 100%;
+    width: 375px;
+    border-start-end-radius: 5px;
 }
 
 .card h4{
