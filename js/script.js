@@ -36,7 +36,7 @@ console.log(ourTeam);
 
 for(let member of ourTeam){
       containerCards.innerHTML += `
-      <div class="card mx-2 my-3">
+      <div class="card shadow dc-card mx-2 my-3">
          <img src="img/${member.img}" alt="">
          <h4>${member.name}</h4>
          <span>${member.role}</span>
