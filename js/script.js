@@ -1,3 +1,4 @@
+const ul = document.querySelector('ul');
 const ourTeam = [
     {
        name: 'Wayne Barnett',
@@ -32,3 +33,10 @@ const ourTeam = [
 ]
 
 console.log(ourTeam);
+
+for(let member of ourTeam){
+    console.log(member);
+    for(let key in member){
+        console.log(member[key]);
+    }
+}
